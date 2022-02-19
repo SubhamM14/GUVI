@@ -1,0 +1,5 @@
+The role that HTTP plays in the working of a website is quiet essential as it is a network delay sensitive protocol. What this essentially means is that, the lesser is the network delay, the faster the webpage loads up.
+
+But it is realised that increasing the network speed by great means only brings minimal changes in the overall page loading time. This is where the different versions of the HTTP comes to our focus defining how fast a webpage loads. In this scenerio, there is no debate that HTTP2 is a l;ot better than HTTP1.1.
+
+HTTP2 helps in achieving faster loading of webpages without requiring any optimisation in the performance whatsoever, that may in turn need lots of human efforts for the development and implementation. HTTP1.1 had developed several layers of complexity and HTTP2 has also helped in revolving those issues and bringing forward a robust protocol that offers a much better and seamless service.

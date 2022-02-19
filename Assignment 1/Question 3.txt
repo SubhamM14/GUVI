@@ -1,0 +1,5 @@
+Objects are a very essential part of Jvavascript as it is a different data type from the primitive datatypes like numbers, string booleand and so on. 
+
+Primitive datatypes are capable of holding only one value but objects on the other hand are capable of holding multiple values in the form of key:value pair. 
+
+The keys that are defined can be variables or even functions and are called properties and methods, respectively, in the context of an object. For each object created, it has some property associated with somne value. 
