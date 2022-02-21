@@ -1,0 +1,9 @@
+typeof(1): represents a number datatype
+typeof(1.1): represents a number datatype
+typeof('1.1'): represents a string datatype
+typeof(true): represents a boolean datatype
+typeof(null): represents an object
+typeof(undefined):represents an undefined datatype
+typeof([]): represents an object
+typeof({}): represents an object
+typeof(NaN): represents an object

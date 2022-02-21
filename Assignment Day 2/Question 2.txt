@@ -1,0 +1,25 @@
+As observed in the video, the steps and the backend processes related to rendering of a website is discussed. And here is a brief summary and discussion on the same:
+
+1. Construction of DOM:
+-> document Object Model or DOM is a high-level Web API provided by the browser that is essential in rendering the HTML document that it has received from the server in the form of stream format.
+-> the HTML elements that are read by the browser are converted into a JS object called Node.
+-> after the elements have been converted from the HTML document, the browser creates a tree-like structure called the DOM tree consisting of all the node objects.
+
+2. Construction of CSSOM:
+-> as the DOM is constructed, the browser then reads the sources and constructs another tree-like structure called CSS Object Model or CSSOM.
+-> every sinfgle node consists of CSS-style information that it attains from the DOM element it targets. 
+-> browsers usually have a default style sheet called as user-agent stylesheets which is used if there is absence of application of specific CSS.
+
+3. Construction of Render Tree:
+-> once both the CSS and DOM are constructed, these are combined together to form a render tree that consists of the nodes that are to be dispalyed on the page.
+-> starting from the root of the DOM tree, each node is traversed and the respective CSS rule is applied to the node.
+-> the render tree is hence formed that displays the visible nodes consisting of values and styling (although this only gives a low-level representation of what will eventually get printed on the screen)>
+
+4. Layout Phase:
+-> this is the phase where the geometry and dimensions of each node is calculated.
+-> here, the exact position of the nodes and their size respective to the view-port of the browser is computed. 
+-> a box model is generated in this process, which knows the exact positions and size and this process is also known as layout or reflow.
+
+5. Painting Phase
+-> as the visible nodes, their styling, & their geometry are all known to us,all this information is used to render the nodes from the render tree to actual pixels on the screen.
+-> this process is referred to as Painting and it uses the UI backend layer.

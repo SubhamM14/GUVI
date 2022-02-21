@@ -1,0 +1,15 @@
+The 5 differences between Browser JS(console) and Node JS are as follows: 
+
+~ Browser JS(console):
+1. "window" is present as a predefined object and they consist of functions and attributes that have to deal with window that has been drawn.
+2. another predefined object in the browsers happen to be the "location" which consists of a;ll the information about the URL loaded by us.
+3. the predefined object named "document" has the html which is rendered.
+4. an object named "global" may be present in the browser but it will be the exact same as "window".
+5. the object "require" is not predefined but you may add it in the app for asynchronous file loading.
+
+~ Node JS:
+1. there is no such predefined object as "window" as there is no window that Node JS needs to draw.
+2. Node JS does not require the "location" object as it is realted to a particular page and happens to be page specific.
+3. as Node JS does not have to render anything in a paghe, there is also an absense of "document" object.
+4. a "global" predefined object is present in Node JS which consistsseveral functions that are not available in browsers, cause they are needed for server side works only.
+5. the "require" object is predefined in Node which is used to include modules in the app.
