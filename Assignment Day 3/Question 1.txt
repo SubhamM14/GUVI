@@ -1,0 +1,38 @@
+The way JSON iterates over the different for loops are:
+
+1. 'For' Loop:
+~ in case of this loop, the value is first set with an approximate condition, which is also called ‘initializing a loop’.
+~ then the terminal or the final value of the loop is specified.
+eg:
+var numbers = [ 10, 20, 30, 40, 50] 
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+
+Here, 'i' is initialised by zero and the terminal value is set to be the length of the given array. 
+For loop will iterate through the array and the loop will run as long as 'i' does not match the terminal value.
+
+2. 'For In' Loop:
+~ unlike the For Loop, no counter is used in this loop which makes the iterartion process even morer simple and hassle-free.
+eg:
+var student = {
+   firstname: "Subham",
+   lastname: "JMukherjee",
+   age: 22
+}; 
+for (let x in student) {
+   console.log(x + ": "+ student[x])
+} 
+
+Here, the loop iterates through the object and looks up each property as well as the value it carries.
+
+3. 'forEach' Loop:
+~ This method is essentially used for looping through an array element.
+eg:
+var employees = ["Jake", "Terry", "Amy", "Holt", "Rosa"];
+employees.forEach(function1);
+function function1(currentValue, index) {
+   console.log("Index in array is: "+index + " ::  Value is: "+currentValue);
+}
+
+Here, the loop iterates through each element of the loop and returns the necessary value.

@@ -1,0 +1,65 @@
+Resume in JSON Format:
+
+{
+  "basics": {
+    "name": "Subham Mukherjee",
+    "email": "subhammukherjee82@gmail.com",
+    "phone": "987654321",
+    "degree": "B.Tech",
+    "website": "Nil",
+    "summary": "A coding enthusiast hoping to do some good for the world",
+    "location": {
+      "address": "Jadavpur",
+      "postalCode": "7005",
+      "city": "Kolkata",
+      "countryCode": "IN",
+      "region": "West Bengal"
+    },
+  },
+  "work": [
+    {
+      "company": "HighRadius",
+      "position": "ATFC",
+      "website": "highradius.com",
+      "startDate": "08-09-2021",
+      "endDate": "",
+      "summary": "Handling complex situations with fast adaptation skills."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Narula Institute of Technology",
+      "area": "B.Tech in Computer Science and Engineering",
+      "studyType": "Regular",
+      "startDate": "07-31-2018",
+      "endDate": "",
+      "gpa": "8.3",
+      "courses": [
+        "Software Engineering"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Intermediate",
+      "keywords": [
+        "Java,C++,C,JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Guitar"
+      ]
+    }
+  ]
+}
