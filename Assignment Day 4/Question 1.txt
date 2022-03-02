@@ -1,0 +1,18 @@
+Q: How to compare two JSON have the same properties without order?
+   a. var obj1 = { name: "Person 1", age:5 };
+   b. var obj2 = { age:5, name: "Person 1" };
+
+Ans:
+
+When there is a need to compare two JSON irrespective of their order, the best way to do so is with the help of Lodash's.isEqual().
+With the help of this method we can check if the contents of JSON are similar or not.
+Like with the given example, we can implement the method in the following way:
+
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+if(_.isEqual(bob, bill)){
+    console.log("equal");
+}else{
+	console.log("not equal");
+}
+
