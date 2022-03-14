@@ -1,0 +1,3 @@
+Need help with question 3.
+
+I can solve it with for loop but with forEach loop, I am confused what I should do.

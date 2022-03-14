@@ -1,0 +1,15 @@
+#x {
+    display : flex;
+    flex-wrap: wrap;
+    width:100vw;
+    padding:20px;
+}
+
+.card{
+    width:200px;
+    /*margin: 15px;*/
+}
+
+.card img {
+    width:100%;
+}
